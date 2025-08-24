@@ -1,11 +1,11 @@
 <?php
 
-use function Livewire\Volt\{state,mount};
+use function Livewire\Volt\{state, mount};
 
 state(['word']);
 
 mount(function () {
-    $this->word_reverse = strrev ($this->word);
+    $this->word_reverse = strrev($this->word);
 });
 
 ?>
